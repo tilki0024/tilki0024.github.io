@@ -49,3 +49,8 @@ ul.ozellik li{margin-bottom:8px}
 .galeri{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:28px 0 0}
 .galeri img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 30%;border-radius:12px}
 @media (max-width:600px){.galeri{grid-template-columns:1fr 1fr}.galeri img:first-child{grid-column:span 2;aspect-ratio:4/3;object-position:center 40%}}
+
+.rakamlar{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:40px 0 0}
+.rakamlar div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 14px;font-size:13px;color:var(--mute);line-height:1.35}
+.rakamlar b{display:block;font-size:26px;color:var(--accent);letter-spacing:-.02em;margin-bottom:4px}
+@media (max-width:600px){.rakamlar{grid-template-columns:1fr 1fr}}
