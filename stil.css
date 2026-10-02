@@ -62,3 +62,6 @@ ul.ozellik li{margin-bottom:8px}
 .sss details[open] summary::after{content:"\2212"}
 .sss details[open] summary{border-bottom:1px solid var(--line)}
 .sss p{margin:0;padding:14px 0 18px;color:var(--mute);font-size:15px}
+
+.galeri.dort{grid-template-columns:repeat(4,1fr)}
+@media (max-width:600px){.galeri.dort{grid-template-columns:1fr 1fr}.galeri.dort img:first-child{grid-column:auto;aspect-ratio:3/4;object-position:center 30%}}
