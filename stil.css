@@ -50,3 +50,7 @@ ul.ozellik li{margin-bottom:8px}
 .galeri img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 30%;border-radius:12px}
 @media (max-width:600px){.galeri{grid-template-columns:1fr 1fr}.galeri img:first-child{grid-column:span 2;aspect-ratio:4/3;object-position:center 40%}}
 
+
+.pafta{margin:24px 0}
+.pafta img{display:block;width:100%;border:1px solid var(--line);border-radius:12px;background:#fff}
+.pafta figcaption{margin-top:10px;font-size:14px;color:var(--mute);line-height:1.5}
