@@ -54,3 +54,11 @@ ul.ozellik li{margin-bottom:8px}
 .siluet{margin:28px 0;text-align:center}
 .siluet svg{width:200px;max-width:60%;height:auto;color:var(--ink)}
 .siluet figcaption{margin-top:12px;font-size:14px;color:var(--mute);line-height:1.5;text-align:left}
+
+.sss details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:0 18px;margin-bottom:10px}
+.sss summary{cursor:pointer;padding:15px 0;font-weight:600;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.sss summary::-webkit-details-marker{display:none}
+.sss summary::after{content:"+";color:var(--accent);font-size:20px;font-weight:600;line-height:1}
+.sss details[open] summary::after{content:"\2212"}
+.sss details[open] summary{border-bottom:1px solid var(--line)}
+.sss p{margin:0;padding:14px 0 18px;color:var(--mute);font-size:15px}
