@@ -70,6 +70,7 @@ ul.ozellik li{margin-bottom:8px}
 .ekip{display:grid;gap:12px;margin:28px 0 0}
 .uye{display:flex;gap:18px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
 .uye .bas{width:56px;height:56px;border-radius:14px;flex:none;display:grid;place-items:center;background:var(--accent);color:#fff;font-weight:700;font-size:19px;letter-spacing:.02em}
+img.uye-foto,.uye img.bas{object-fit:cover;object-position:center 35%}
 .uye h2{margin:0;font-size:20px;text-transform:none;letter-spacing:0;color:var(--ink)}
 .uye p{margin:10px 0 0;color:var(--mute);font-size:15px}
 
