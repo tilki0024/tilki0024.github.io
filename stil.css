@@ -72,3 +72,7 @@ ul.ozellik li{margin-bottom:8px}
 .uye .bas{width:56px;height:56px;border-radius:14px;flex:none;display:grid;place-items:center;background:var(--accent);color:#fff;font-weight:700;font-size:19px;letter-spacing:.02em}
 .uye h2{margin:0;font-size:20px;text-transform:none;letter-spacing:0;color:var(--ink)}
 .uye p{margin:10px 0 0;color:var(--mute);font-size:15px}
+
+.uye h3{margin:0;font-size:19px}
+.ekip-link{margin-top:16px;font-weight:600}
+.ekip-link a{text-decoration:none}
